@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Part 3 exo4</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-5">
+            créer des divs colorés et cinq boutons. Un pour augmenter la hauteur de la div, un pour faire disparaitre la div, 
+            un pour changer la couleur de la div, un pour revenir à la couleur initiale et un pour la faire réapparaitre.
+        </h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 mt-5">
+                <div class="color" id="orange"></div>
+                <div class="color" id="olive"></div>
+                <div class="color" id="brown"></div>
+                <div class="color" id="blue"></div>
+            </div>
+            <div class="col-md-8 mt-5">
+                <button type="button" class="btn btn-primary" id="width">Width</button>
+                <button type="button" class="btn btn-light" id="height">Height</button>
+                <button type="button" class="btn btn-secondary" id="colors">New Colors</button>
+                <button type="button" class="btn btn-success" id="showHide">Hide/Show</button>
+                <button type="button" class="btn btn-danger" id="border">Border</button>
+                <button type="button" class="btn btn-warning" id="pic">Picture</button>
+                <button type="button" class="btn btn-info" id="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
